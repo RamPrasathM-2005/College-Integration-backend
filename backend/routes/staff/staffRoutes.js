@@ -21,7 +21,7 @@ import {
   getStudentCOMarks
 } from '../../controllers/markController.js';
 import { protect } from '../../controllers/auth/authController.js';
-import upload from '../../Uploads/upload.js';
+import upload from '../../uploads/upload.js'
 
 const router = express.Router();
 
